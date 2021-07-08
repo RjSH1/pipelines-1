@@ -2,18 +2,21 @@ resources:
   - name: repo_for_a
     type: GitRepo
     configuration:
-      path: vishnurao12/pipelines
-      gitProvider: git_v
+      path: RjSh1/pipelines-1
+      gitProvider: myGit
       files:  # optional
-        include: ^a\/.*$
+        include:
 
   - name: repo_for_b
     type: GitRepo
     configuration:
-      path: vishnurao12/pipelines
-      gitProvider: git_v
+      path: RjSH1/pipelines-1
+      gitProvider: myGit
       files:  # optional
         include: ^b\/.*$
+      branches:
+      tags:
+      
 
 pipelines:
   - name: sample_gitFlow
