@@ -3,7 +3,7 @@ resources:
     type: GitRepo
     configuration:
       path: RjSh1/pipelines-1
-      gitProvider: myGit
+      gitProvider: myGithub
       files:  # optional
         include:
 
@@ -11,9 +11,9 @@ resources:
     type: GitRepo
     configuration:
       path: RjSH1/pipelines-1
-      gitProvider: myGit
+      gitProvider: myGithub
       files:  # optional
-        include: ^b\/.*$
+        include: master
       branches:
       tags:
       
